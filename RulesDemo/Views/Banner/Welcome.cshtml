@@ -1,0 +1,34 @@
+﻿@model RulesDemo.Models.GeolocationModel
+@{
+    var image = string.Empty;
+    var text = string.Empty;
+    var render = true;
+}
+@if (Model.Geolocation.State == "VA")
+{
+    image = "/~/media/rulesdemo/trump-for-hire.ashx";
+    text = "Welcome to Virginia!";
+}
+else if (Model.Geolocation.State == "NY")
+{
+    image = "/~/media/rulesdemo/angry-cabbie.ashx";
+    text = "Fuhgit About It!";
+}
+else if (Model.Geolocation.State == "NC")
+{
+    image = "/~/media/rulesdemo/charlotte-speedway.ashx";
+    text = "Welcome to Nawth Kackalacka!";
+}
+else
+{
+    render = false;
+}
+
+@if (render)
+{
+    <div style="background: url(@image) no-repeat fixed center; height: 480px; width: 100%; background-size: 100%">
+        <div style="position: relative; top: 75%; text-align: center; color: #fff; font-size: 48px">
+            @text
+        </div>
+    </div>
+}

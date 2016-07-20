@@ -1,0 +1,23 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<RulesDemo.Models.BannerModel>
+
+@if (IsInEditingMode)
+{
+    <div>
+        <p> Banner Image </p>
+        @RenderImage(Model, x => x.BackgroundImage)
+    </div>
+    <div>
+        <p>Banner Message</p>
+        @Editable(Model, x=>x.BannerTagline)
+    </div>
+}
+else
+{
+    <div style="background: url(@Model.BackgroundImage.Src) no-repeat fixed center; height: 480px; width: 100%; background-size: 100%">
+        <div style="position: relative; top: 75%; text-align: center; color: #fff; font-size: 48px">
+            @Model.BannerTagline
+        </div>
+    </div>
+}
+
