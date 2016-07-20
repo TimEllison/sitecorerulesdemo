@@ -1,0 +1,75 @@
+----item----
+version: 1
+id: {DABC832A-3E4E-4BF6-811D-547E78F41382}
+database: master
+path: /sitecore/templates/RulesDemo/Base Page/__Standard Values
+parent: {F2B7788D-1194-43D2-BA33-0CBCF480A55F}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {F2B7788D-1194-43D2-BA33-0CBCF480A55F}
+templatekey: Base Page
+created: 20160720T173342:636046328229630000
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 105
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{C8426AF7-F9B4-4172-AFC2-F5A0F11616EE}" />
+</r>
+----version----
+language: en
+version: 1
+revision: 89d87298-71d1-400a-bbc8-1a9c39117aca
+
+----field----
+field: {39EFC276-1F60-4C5E-8D80-00EEEF89BD60}
+name: Page Title
+key: page title
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160720T173342Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+89d87298-71d1-400a-bbc8-1a9c39117aca
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160720T173601Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
