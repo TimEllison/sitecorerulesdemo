@@ -20,20 +20,19 @@ Somewhat new to Sitecore and well versed in ASP.NET MVC, you embark on what most
     
     Model.Location.Text = "Old Dominion";
     Model.Location.ImageUrl = "/media/herobackgrounds/olddominion.png";
-}
-@else if ( User.Geolocation.State == "NC" )
+}else if ( User.Geolocation.State == "NC" )
 {
     
     Model.Location.Text = "Nawth Kackalacka";
     Model.Location.ImageUrl = "/media/herobackgrounds/charlottespeedway.png";
 }
-@else if ( User.Geolocation.State == "NY" )
+else if ( User.Geolocation.State == "NY" )
 {
     
     Model.Location.Text = "Fuhgit About It";
     Model.Location.ImageUrl = "/media/herobackgrounds/angrycabbie.png";
 }
-@else
+else
 {
     
     // Don't render at all if not VA, NC or NY
