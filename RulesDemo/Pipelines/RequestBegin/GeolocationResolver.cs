@@ -12,6 +12,12 @@ using Sitecore.Pipelines.HttpRequest;
 
 namespace RulesDemo.Pipelines.RequestBegin
 {
+    /// <summary>
+    /// Pretend this is your Geolocation service providing the United States State in which your 
+    /// user currently resolves to.  The Matching State custom rendering rule uses the value set in the resulting cookie
+    /// to determine the conditional rendering outcome.  I've also included a matches non condition to demonstrate the ability 
+    /// of Sitecore to not only differ datasource but also to provide a completely different rendering altogether..
+    /// </summary>
     public class GeolocationResolver : HttpRequestProcessor
     {
         public override void Process(HttpRequestArgs args)
@@ -22,13 +28,8 @@ namespace RulesDemo.Pipelines.RequestBegin
                 "ND",
                 "SD",
                 "AK",
-//                "AZ",
-//                "DC",
                 "NY",
-                "VA",
-//                "AL",
-//                "IL",
-//                "SC"
+                "VA"
             };
             var itemNumber = new Random().Next(0, states.Length);
             if (Sitecore.Context.Database == null || Sitecore.Context.Database.Name == "master")
