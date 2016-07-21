@@ -1,0 +1,46 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Sitecore.Mvc
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<RulesDemo.Models.BannerModel>
+
+@if (IsInEditingMode)
+{
+    <div>
+        <p> Banner Image </p>
+        @Editable(Model, x => x.BackgroundImage)
+    </div>
+    <div>
+        <p>Banner Message</p>
+        @Editable(Model, x => x.BannerTagline)
+    </div>
+}
+else
+{
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1" style="height: 480px; background: url(@Model.BackgroundImage.Src) no-repeat center; width: 100%; background-size: 100%">
+            <div style="position: relative; top: 75%; text-align: center; color: #fff;">
+                <h1 style="text-shadow: 6px 6px gray; font-size:60px; font-weight: bold">@Model.BannerTagline</h1>
+            </div>
+        </div>
+    </div>
+}
+
+
+<div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+        <div class="form-group">
+            <h2>We can't tell where you are!  Please tell us!</h2>
+            <form>
+                <div class="form-control">
+                    <label for="location">Select your location</label>
+                    <select id="location" name="location">
+                        <option selected value="">Please select a location</option>
+                        <option value="VA">Virginia</option>
+                        <option value="NC">North Carolina</option>
+                        <option value="NY">New York</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary">I am here!</button>
+            </form>
+        </div>
+    </div>
+</div>

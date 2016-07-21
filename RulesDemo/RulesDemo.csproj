@@ -199,6 +199,7 @@
     <Content Include="Views\Banner\Welcome.cshtml" />
     <Content Include="Views\RulesDemoDefaultLayout.cshtml" />
     <Content Include="Views\Banner\BetterWelcome.cshtml" />
+    <Content Include="Views\Banner\WhereAreYou.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
