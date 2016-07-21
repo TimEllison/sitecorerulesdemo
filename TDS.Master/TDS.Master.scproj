@@ -130,6 +130,10 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\rulesdemo\Banners\635865304485781448-1723632830_Trump.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\rulesdemo\Banners\angry-cabbie.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -139,6 +143,10 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\media library\rulesdemo\Banners\trump-for-hire.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\rulesdemo\Banners\two-tank-reef-dive-with-equipment-freeport-the-bahamas-1.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -168,6 +176,7 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\system\Settings\Rules\Definitions\Elements\GeoIP\Geolocated State Is.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates.item">
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
