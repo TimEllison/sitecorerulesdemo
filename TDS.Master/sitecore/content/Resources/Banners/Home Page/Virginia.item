@@ -13,15 +13,15 @@ created: 20160720T223313:636046507936900000
 ----version----
 language: en
 version: 1
-revision: f5c7e635-20c9-4e6a-ae40-fe81f7f4baf7
+revision: 8ddd0e91-68fe-4050-96b2-52b2a903116c
 
 ----field----
 field: {52DAE026-D928-4C3C-975B-A1F9D0348F46}
 name: Banner Background
 key: banner background
-content-length: 170
+content-length: 177
 
-<image mediapath="" alt="trump-for-hire" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{1B5F9539-EB36-4773-A778-0A821A677406}" />
+<image mediapath="" alt="trump-for-hire" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{1B5F9539-EB36-4773-A778-0A821A677406}" ></image>
 ----field----
 field: {0089B1A8-AAEB-4B67-8575-4C850597F6B1}
 name: Banner Tagline
@@ -42,14 +42,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f5c7e635-20c9-4e6a-ae40-fe81f7f4baf7
+8ddd0e91-68fe-4050-96b2-52b2a903116c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160720T223422Z
+20160720T232215Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -57,3 +57,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
