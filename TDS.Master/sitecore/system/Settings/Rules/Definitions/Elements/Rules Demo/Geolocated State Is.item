@@ -2,8 +2,8 @@
 version: 1
 id: {B0CE8E00-31BB-4A73-976C-938D6E5AF507}
 database: master
-path: /sitecore/system/Settings/Rules/Definitions/Elements/GeoIP/Geolocated State Is
-parent: {AE087328-BC0F-4D58-90A3-7B4810EE51A5}
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Rules Demo/Geolocated State Is
+parent: {6858F7E8-C204-47B1-80C5-8CE0F31D4D7F}
 name: Geolocated State Is
 master: {00000000-0000-0000-0000-000000000000}
 template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
@@ -20,7 +20,7 @@ RulesDemo.RenderingRules.GeolocationStateRule,RulesDemo
 ----version----
 language: en
 version: 1
-revision: 36c6905f-fa05-4627-94ea-fcada21fbb38
+revision: a9e20c9d-fd15-4a40-87d5-c8ca2e31db44
 
 ----field----
 field: {AF321234-4EB9-4EF5-9197-65903351939C}
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-36c6905f-fa05-4627-94ea-fcada21fbb38
+a9e20c9d-fd15-4a40-87d5-c8ca2e31db44
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160721T033354Z
+20160721T234539Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
