@@ -10,7 +10,7 @@ using Glass.Mapper.Sc.Fields;
 namespace RulesDemo.Models
 {
     [SitecoreType(TemplateId=Constants.TemplateIds.BannerTemplate)]
-    public class BannerModel
+    public class BannerModel : ContentBase
     {
         [SitecoreField("Banner Background")]
         public virtual Image BackgroundImage { get; set; }
