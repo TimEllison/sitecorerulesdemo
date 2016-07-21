@@ -1,55 +1,55 @@
 ----item----
 version: 1
-id: {A83F0F2A-FCD1-4FCF-BB77-9AE84D3D8B41}
+id: {6A2CD7AE-50D6-4585-83BD-FD703DDF1C66}
 database: master
-path: /sitecore/content/Resources/Banners/Home Page/Virginia
+path: /sitecore/content/Resources/Banners/Home Page/Parts Unkown
 parent: {27DEDDFF-F5AC-4435-A775-3EBE667C186D}
-name: Virginia
+name: Parts Unkown
 master: {00000000-0000-0000-0000-000000000000}
 template: {D15F2735-10A4-47F5-A31A-837E8896E5A8}
 templatekey: Banner
-created: 20160720T223313:636046507936900000
+created: 20160721T161255:636047143757430000
 
 ----version----
 language: en
 version: 1
-revision: 94d18501-e1a7-4e5e-a026-16747b5cd4ad
+revision: 533b95c5-5c2a-469e-a53c-aefa6c4449db
 
 ----field----
 field: {52DAE026-D928-4C3C-975B-A1F9D0348F46}
 name: Banner Background
 key: banner background
-content-length: 191
+content-length: 212
 
-<image mediapath="" alt="635865304485781448-1723632830_Trump" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{2DC84F42-4618-47B7-84D2-D28C88E3DFC8}" />
+<image mediapath="" alt="two-tank-reef-dive-with-equipment-freeport-the-bahamas-1" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{69AF8D54-C34F-4D4D-8EB3-16A32F936BBC}" />
 ----field----
 field: {0089B1A8-AAEB-4B67-8575-4C850597F6B1}
 name: Banner Tagline
 key: banner tagline
-content-length: 19
+content-length: 23
 
-Welcome To Virginia
+Welcome To Parts Unkown
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20160720T223313Z
+20160721T161255Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-94d18501-e1a7-4e5e-a026-16747b5cd4ad
+533b95c5-5c2a-469e-a53c-aefa6c4449db
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160721T162536Z
+20160721T161312Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -57,10 +57,3 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
-----field----
-field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
-name: __Lock
-key: __lock
-content-length: 5
-
-<r />

@@ -14,10 +14,13 @@
 }
 else
 {
-    <div style="background: url(@Model.BackgroundImage.Src) no-repeat fixed center; height: 480px; width: 100%; background-size: 100%">
-        <div style="position: relative; top: 75%; text-align: center; color: #fff; font-size: 48px">
-            @Model.BannerTagline
-        </div>
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1" style="height: 480px; background: url(@Model.BackgroundImage.Src) no-repeat center; width: 100%; background-size: 100%">
+            <div style="position: relative; top: 90%; text-align: center; color: #fff;">
+                <h1 style="text-shadow: 2px 2px #ff0000; font-size:60px; font-weight: bold">@Model.BannerTagline</h1>
+            </div>
+        </div>    
     </div>
+    
 }
 
