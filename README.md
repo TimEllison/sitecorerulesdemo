@@ -13,38 +13,38 @@ has indicated that users are much more likely to hang out on your site if they f
 Somewhat new to Sitecore and well versed in ASP.NET MVC, you embark on what most of us have done new to Sitecore and you create a view for your welcome banner much like the code here
 
 <code>
-<xmp>
 @model MyAwesomeSolution.Models.UserGeolocationModel
 
 @if ( User.Geolocation.State == "VA")
 {
+    
     Model.Location.Text = "Old Dominion";
     Model.Location.ImageUrl = "/media/herobackgrounds/olddominion.png";
 }
 @else if ( User.Geolocation.State == "NC" )
 {
+    
     Model.Location.Text = "Nawth Kackalacka";
     Model.Location.ImageUrl = "/media/herobackgrounds/charlottespeedway.png";
 }
 @else if ( User.Geolocation.State == "NY" )
 {
+    
     Model.Location.Text = "Fuhgit About It";
     Model.Location.ImageUrl = "/media/herobackgrounds/angrycabbie.png";
 }
 @else
 {
+    
     // Don't render at all if not VA, NC or NY
     Model.RenderHero = false;
 }
-</xmp>
 </code>
 
 If we're in ASP.NET MVC land, there's nothing overly wrong with this code, especially if we have no means to data drive the view.  In Sitecore, business logic in the view is a prime candidate for Conditional Renderings or better yet, Sitecore Personalization.
 
 I invite you to pull the code down, take a peek, complain at my humble somewhat futile attempts at styling a Hero, laugh at my Text-Shadow styling and pay really close attention to the personalization rule and its use.
-
 This is truly just scratching the tip of the iceberg but I hope it's an eye opener for you in terms of how to better leverage Sitecore Personalization.
-
 Please note the following:
 
 1) In Sitecore 8.0 Analytics must be enabled to use any Personalization
