@@ -22,3 +22,15 @@ select,
 textarea {
     max-width: 280px;
 }
+
+a.cta.small {
+    font-size: 50%;
+}
+
+a.cta.medium {
+    font-size: 80%;
+}
+
+a.cta.donald-trump-yuge {
+    font-size: 250%;
+}

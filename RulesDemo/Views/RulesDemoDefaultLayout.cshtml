@@ -31,13 +31,25 @@
             </div>
         </div>
     </div>
-    <div class="container body-content">
-        @Html.Sitecore().Placeholder("body-content")
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Rules Demo</p>
-        </footer>
+<div class="container body-content">
+    <div class="row">
+        <div class="col-lg-16">
+            <div class="navbar">
+                @Html.Sitecore().Placeholder("link-content")
+            </div>
+        </div>
     </div>
+    <div class="row">
+        <div class="col-lg-16">
+            @Html.Sitecore().Placeholder("body-content")
+        </div>
+    </div>
+
+    <hr/>
+    <footer>
+        <p>&copy; @DateTime.Now.Year - Rules Demo</p>
+    </footer>
+</div>
     <script src="/Scripts/jquery-1.10.2.min.js"></script>
     <script src="/Scripts/bootstrap.min.js"></script>
 </body>

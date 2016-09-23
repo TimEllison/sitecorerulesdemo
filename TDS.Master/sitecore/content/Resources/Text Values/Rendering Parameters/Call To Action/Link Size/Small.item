@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {37594805-DA2D-4FB9-8B1E-CE5FE7BF9F5E}
+database: master
+path: /sitecore/content/Resources/Text Values/Rendering Parameters/Call To Action/Link Size/Small
+parent: {E7D00106-B1D7-4A64-9E0F-E0C7E3E5E96E}
+name: Small
+master: {00000000-0000-0000-0000-000000000000}
+template: {704A6FE9-9DA6-4DF2-B60A-D8FDB3346479}
+templatekey: Standard Text
+created: 20160923T153211:636102415316770000
+
+----version----
+language: en
+version: 1
+revision: ad52d115-5ca3-46d1-87bb-a7468c482f50
+
+----field----
+field: {C5339AB0-9F87-4981-98CF-D82A5B0C5F71}
+name: Value
+key: value
+content-length: 9
+
+cta small
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160923T153211Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ad52d115-5ca3-46d1-87bb-a7468c482f50
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160923T153936Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

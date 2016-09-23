@@ -1,0 +1,15 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+
+@model RulesDemo.Models.Call_To_Action.CallToActionViewModel
+
+<div>
+    @using (Html.Glass().BeginRenderLink(Model, x => x.Model.CtaLink, new { @class = Model.Parameters.LinkSize != null ? Model.Parameters.LinkSize.Value : string.Empty }))
+    {
+        if (Model.Parameters.ShowSprite)
+        {
+            <b class="@Model.Parameters.Sprite.Value"></b>
+        }
+        @Html.Glass().Editable(Model, x => x.Model.CtaText)
+    }
+</div>
+
