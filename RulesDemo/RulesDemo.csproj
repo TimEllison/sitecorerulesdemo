@@ -155,6 +155,7 @@
     <Compile Include="Models\Constants.cs" />
     <Compile Include="Models\ContentBase.cs" />
     <Compile Include="Models\GeolocationModel.cs" />
+    <Compile Include="Models\StandardText.cs" />
     <Compile Include="Pipelines\Personalize.cs" />
     <Compile Include="Pipelines\RequestBegin\GeolocationResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -200,10 +201,11 @@
     <Content Include="Views\RulesDemoDefaultLayout.cshtml" />
     <Content Include="Views\Banner\BetterWelcome.cshtml" />
     <Content Include="Views\Banner\WhereAreYou.cshtml" />
+    <Content Include="Views\Shared\NavigationLink.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Shared\" />
+    <Folder Include="Views\Header\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

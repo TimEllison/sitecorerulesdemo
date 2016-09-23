@@ -13,15 +13,22 @@ created: 20160720T223323:636046508034470000
 ----version----
 language: en
 version: 1
-revision: 58f7deee-f7de-4c3a-a3b2-80a8db411a29
+revision: 1f64bfc9-e318-4446-a57b-ba3c753b98fc
 
+----field----
+field: {52DAE026-D928-4C3C-975B-A1F9D0348F46}
+name: Banner Background
+key: banner background
+content-length: 168
+
+<image mediapath="" src="" height="" mediaid="{F0DEBBE7-8735-49E7-ADBE-E554BABF646B}" hspace="" usethumbnail="" showineditor="" width="" alt="angry-cabbie" vspace="" />
 ----field----
 field: {0089B1A8-AAEB-4B67-8575-4C850597F6B1}
 name: Banner Tagline
 key: banner tagline
-content-length: 16
+content-length: 20
 
-Fuhgit About It!
+Welcome to New York!
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -35,14 +42,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-58f7deee-f7de-4c3a-a3b2-80a8db411a29
+1f64bfc9-e318-4446-a57b-ba3c753b98fc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160720T223400Z
+20160726T130152Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -50,3 +57,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {CEF0CCF7-BD0A-4654-BCEF-53A83D57966C}
+database: master
+path: /sitecore/content/Resources/Text Values/States/North Carolina
+parent: {8226E071-AAE3-459A-97C0-FFB31F50A04C}
+name: North Carolina
+master: {00000000-0000-0000-0000-000000000000}
+template: {704A6FE9-9DA6-4DF2-B60A-D8FDB3346479}
+templatekey: Standard Text
+created: 20160923T142628:636102375883100000
+
+----version----
+language: en
+version: 1
+revision: c486ae52-6e50-4ff0-b16b-caf642a67b44
+
+----field----
+field: {C5339AB0-9F87-4981-98CF-D82A5B0C5F71}
+name: Value
+key: value
+content-length: 2
+
+NC
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160923T142628Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c486ae52-6e50-4ff0-b16b-caf642a67b44
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160923T142633Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

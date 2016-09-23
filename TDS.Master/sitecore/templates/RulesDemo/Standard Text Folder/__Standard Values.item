@@ -1,34 +1,27 @@
 ----item----
 version: 1
-id: {B0CE8E00-31BB-4A73-976C-938D6E5AF507}
+id: {0BB92EF7-081F-4F0A-A539-A195C883E390}
 database: master
-path: /sitecore/system/Settings/Rules/Definitions/Elements/Rules Demo/Geolocated State Is
-parent: {6858F7E8-C204-47B1-80C5-8CE0F31D4D7F}
-name: Geolocated State Is
+path: /sitecore/templates/RulesDemo/Standard Text Folder/__Standard Values
+parent: {0462227C-C01D-4F14-9316-AF77AA1AB8D0}
+name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
-templatekey: Condition
-created: 20160721T004759:636046588799030000
+template: {0462227C-C01D-4F14-9316-AF77AA1AB8D0}
+templatekey: Standard Text Folder
+created: 20160923T142436:636102374767370000
 
 ----field----
-field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
-name: Type
-key: type
-content-length: 55
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
 
-RulesDemo.RenderingRules.GeolocationStateRule,RulesDemo
+{704A6FE9-9DA6-4DF2-B60A-D8FDB3346479}|{0462227C-C01D-4F14-9316-AF77AA1AB8D0}
 ----version----
 language: en
 version: 1
-revision: 1ce80508-94e7-431f-b827-0f932454f211
+revision: c1228a51-cc52-4f80-9ffd-801fcada44f9
 
-----field----
-field: {AF321234-4EB9-4EF5-9197-65903351939C}
-name: Text
-key: text
-content-length: 94
-
-when the State is [StateCode,Tree,root=/sitecore/content/Resources/Text Values/States/, value]
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -42,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160721T004759Z
+20160923T142436Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1ce80508-94e7-431f-b827-0f932454f211
+c1228a51-cc52-4f80-9ffd-801fcada44f9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160923T143343Z
+20160923T142452Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

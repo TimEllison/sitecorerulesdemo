@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
+using Glass.Mapper.Sc;
+using RulesDemo.Models;
+using Sitecore.Data.Items;
 using Sitecore.Rules;
 using Sitecore.Rules.Conditions;
 
@@ -15,8 +18,10 @@ namespace RulesDemo.RenderingRules
         protected override bool Execute(T ruleContext)
         {
             var cookie = HttpContext.Current.Request.Cookies["Geolocation"];
+            var context = new SitecoreContext();
+            var model = context.GetItem<StandardText>(Guid.Parse(StateCode));
             if (cookie == null) return false;
-            return StateCode == cookie["State"];
+            return model.Value.Equals(cookie["State"], StringComparison.OrdinalIgnoreCase);
         }
     }
 }
